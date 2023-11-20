@@ -1,0 +1,44 @@
+.dashboard {
+    height: calc(100vh - 56px);
+}
+
+.dashboard-wrapper{
+    height: 100%;
+}
+
+.droppable {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.dashboard-sidebar {
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.chart-wrapper{
+    height: auto !important;
+    width: 300px;
+    padding: 25px;
+    margin: 10px;
+}
+
+.droppable {
+    display: flex;
+    justify-content: center;
+}
+
+.droppable .chart-wrapper {
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
